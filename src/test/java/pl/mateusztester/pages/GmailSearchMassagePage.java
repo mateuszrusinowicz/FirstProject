@@ -24,7 +24,7 @@ public class GmailSearchMassagePage {
     @FindBy(xpath = "/html/body/div[1]/div[3]/form/div[1]/div[1]/div[2]/div[2]/div[2]/center/input[1]")
     private WebElement enterSreacher;
 
-    @FindBy(xpath = "//h3[@class='LC20lb DKV0Md' and text()='Poczta - Najlepsza Poczta, największe załączniki - WP']")
+    @FindBy(xpath = "//h3[@class='LC20lb MBeuO DKV0Md' and text()='Poczta - Najlepsza Poczta, największe załączniki - WP']")
     private WebElement wpPoczta;
 
     @FindBy(xpath = "//label[text()='Adres e-mail']")
